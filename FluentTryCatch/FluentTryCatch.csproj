@@ -3,11 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>FluentTryCatchFinally</PackageId>
+    <PackageId>TryCatchFinally.Fluent.NetStandart</PackageId>
     <Authors>Halin Thomas</Authors>
     <Company />
     <Product>FluentTryCatchFinally</Product>
     <Description>Provides a simple fluent api to build a try catch block.</Description>
+    <RepositoryUrl>https://github.com/asykins/fluent-try-catch</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
