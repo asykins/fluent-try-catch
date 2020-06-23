@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>FluentTryCatchFinally</PackageId>
+    <Authors>Halin Thomas</Authors>
+    <Company />
+    <Product>FluentTryCatchFinally</Product>
+    <Description>Provides a simple fluent api to build a try catch block.</Description>
+  </PropertyGroup>
+
+</Project>
