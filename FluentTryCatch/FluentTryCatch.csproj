@@ -10,7 +10,7 @@
     <Description>Provides a simple fluent api to build a try catch block.</Description>
     <RepositoryUrl>https://github.com/asykins/fluent-try-catch</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
 </Project>
