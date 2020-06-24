@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>TryCatchFinally.Fluent.NetStandart</PackageId>
+    <PackageId>TryCatchFinally.Fluent.NetStandard</PackageId>
     <Authors>Halin Thomas</Authors>
     <Company />
     <Product>FluentTryCatchFinally</Product>
@@ -11,6 +11,8 @@
     <RepositoryUrl>https://github.com/asykins/fluent-try-catch</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
+    <PackageReleaseNotes>Added static trier in order to ease the use of the Trier by inferencing directly the type.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
