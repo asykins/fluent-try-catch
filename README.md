@@ -10,6 +10,10 @@ Initial version of the package
 
 Added the Static Trier class in order to enable inferred generics. 
 
+### 1.2.0
+
+Added asynchronous support.
+
 ## How to use
 
 The following section is all about some usefull information while trying to use this package.
