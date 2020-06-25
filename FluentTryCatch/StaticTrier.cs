@@ -1,4 +1,5 @@
 ﻿using FluentTryCatch.Abstractions;
+using FluentTryCatch.Async.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,8 @@ namespace FluentTryCatch
     {
         public static ICatcherOrRethrower<T, TResult> Try<T, TResult>(T content, Func<T, TResult> tryAction)
             => new Trier<T, TResult>(content).Try(tryAction);
+
+        public static IAsyncCatcherOrRethrower<T, TResult> TryAsync<T, TResult>(T content, Func<T, Task<TResult>> asyncTryFunction)
+            => new Trier<T, TResult>(content).TryAsync(asyncTryFunction);
     }
 }
