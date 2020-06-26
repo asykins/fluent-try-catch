@@ -11,8 +11,12 @@
     <RepositoryUrl>https://github.com/asykins/fluent-try-catch</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.1.0</Version>
-    <PackageReleaseNotes>Added static trier in order to ease the use of the Trier by inferencing directly the type.</PackageReleaseNotes>
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>Added asynchronous try catch block feature</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+  </ItemGroup>
 
 </Project>
